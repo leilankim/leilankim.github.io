@@ -7,7 +7,7 @@ body {
   font-size:20px;
   margin:45px;
   opacity: 1;
-transition: 1s opacity;
+  transition: 1s opacity;
 }
 
 body.fade-out {
