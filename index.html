@@ -7,27 +7,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind:light">
 
     <!-- Icon library for social media -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta charset="utf-8">
     <title>leila kim</title>
 
-    <link rel="icon" href='static/logo_darker.png' >
+    <link rel="icon" href='static/logo_darker.png'>
     <link rel="stylesheet" href="main.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        $(function() {
-                $('body').removeClass('fade-out');
+        $(function () {
+            $('body').removeClass('fade-out');
         });
     </script>
-    
 </head>
 
 <body>
     <script>document.body.className += ' fade-out';</script>
     <div class='big-name'>
-        <a href='index.html'><h1>leila kim</h1></a>
+        <a href='index.html'>
+            <h1>leila kim</h1>
+        </a>
     </div>
     <div class='menu'>
         <a href='#projects'>projects</a>
@@ -40,114 +42,138 @@
         <div class='intro-text'>
             <h2>welcome to my page</h2>
             <p>
-                I am a current junior at Brown University concentrating in Computer Science. Within my degree, I focus on AI, ML, and Security. Currently, I'm in search of a software engineering internship for Summer 2021. 
+                I am a current junior at Brown University concentrating in Computer Science. Within
+                my degree, I focus on AI, ML, and Security. Currently, I'm in search of a software
+                engineering internship for Summer 2021.
             </p>
 
             <p>
-                This semester, I will be returning as an undergraduate teaching assistant for cs0190 at Brown. I'll be taking Deep Learning and Software Security & Exploitation this fall. 
+                This semester, I will be returning as an undergraduate teaching assistant for cs0190
+                at Brown. I'll be taking Deep Learning and Software Security & Exploitation this
+                fall.
             </p>
         </div>
-        <img class='mypic' src='static/me.png' />
+        <div class='laptop-wrapper'>
+            <img class='laptop' src='static/laptop.png' />
+            <div id='screen'>
+                <img src='static/cropped_me.JPG' />
+            </div>
+        </div>
+
     </div>
-     
+
     <img id='banner' src='static/butterfly_banner.png' />
 
-    <div id ='projects'>
+    <div id='projects'>
         <h2>my projects</h2>
         <div class='proj-row'>
             <div class='project-wrapper'>
                 <div class='expanding'>
                     <a href='rwr.html'>
-                        <img class='proj-pic' src='static/rwr_purple.png' /> 
+                        <img class='proj-pic' src='static/rwr_purple.png' />
                         <div class='overlay' id='rwr'>
                             <p>
-                                Explore more of my work as a summer intern at <b>Rhymes with Reason</b>, where I worked on the front-end of the new platform. 
-                            </p> 
+                                Explore more of my work as a summer intern at <b>Rhymes with
+                                    Reason</b>, where I worked on the front-end of the new platform.
+                            </p>
                         </div>
-                    </a>  
+                    </a>
                 </div>
-                
+
                 <p class='proj-desc'>Rhymes with Reason</p>
-            </div> 
-            
+            </div>
+
             <div class='project-wrapper'>
                 <div class='expanding'>
                     <a href='https://github.com/ArYalavarti/FilterNet' target="_blank">
-                        <img class='proj-pic' src='static/filter-net.png' /> 
+                        <img class='proj-pic' src='static/filter-net.png' />
                         <div class='overlay' id='filternet'>
                             <p>
-                                View the Github repo for <b>FilterNet</b>, a project that uses Reinforcement Learning to learn to <b>professionally edit photos</b>. 
-                            </p> 
+                                View the Github repo for <b>FilterNet</b>, a project that uses
+                                Reinforcement Learning to learn to <b>professionally edit
+                                    photos</b>.
+                            </p>
                         </div>
                     </a>
                 </div>
                 <p class='proj-desc'>FilterNet</p>
-            </div> 
+            </div>
 
             <div class='project-wrapper'>
                 <div class='expanding'>
-                    <a href='https://drive.google.com/file/d/1wGPhyPXE18xlrLYiBJiUnidjf0bEbwvZ/view?usp=sharing' target="_blank">
+                    <a href='https://drive.google.com/file/d/1wGPhyPXE18xlrLYiBJiUnidjf0bEbwvZ/view?usp=sharing'
+                        target="_blank">
                         <img class='proj-pic' src='static/reach.png' />
                         <div class='overlay' id='reach'>
                             <p>
-                                Watch a demo video my group's <b>Hack@Brown</b> submission, a chat forum for those suffering from mental illness to reach out to others. 
-                            </p> 
-                        </div> 
+                                Watch a demo video my group's <b>Hack@Brown</b> submission, a chat
+                                forum for those suffering from mental illness to reach out to
+                                others.
+                            </p>
+                        </div>
                     </a>
-                    
+
                 </div>
                 <p class='proj-desc'>Reach 4 Mental Health</p>
-            </div>  
+            </div>
         </div>
         <div class='proj-row'>
             <div class='project-wrapper'>
                 <div class='expanding'>
                     <a href='https://trec.nist.gov/pubs/trec28/papers/Brown.DL.pdf' target='_blank'>
-                        <img class='proj-pic' src='static/trec.png' /> 
+                        <img class='proj-pic' src='static/trec.png' />
                         <div class='overlay' id='trec'>
                             <p>
-                                Read more about <b>query2query</b>, an NLP approach based off of doc2query to match queries to documents by improving the query representation. This was a submission to the 2019 <b>Text Retrieval Conference</b>. 
-                            </p> 
+                                Read more about <b>query2query</b>, an NLP approach based off of
+                                doc2query to match queries to documents by improving the query
+                                representation. This was a submission to the 2019 <b>Text Retrieval
+                                    Conference</b>.
+                            </p>
                         </div>
-                    </a>   
+                    </a>
                 </div>
                 <p class='proj-desc'>Brown @ TREC</p>
-            </div> 
-            
+            </div>
+
             <div class='project-wrapper'>
                 <div class='expanding'>
-                    <a href='https://drive.google.com/file/d/1s-27Dg6HMvUp7wn5uV4NGZlkUzqdz5sa/view?usp=sharing' target='_blank'>
-                        <img class='proj-pic' src='static/shell.png' /> 
+                    <a href='https://drive.google.com/file/d/1s-27Dg6HMvUp7wn5uV4NGZlkUzqdz5sa/view?usp=sharing'
+                        target='_blank'>
+                        <img class='proj-pic' src='static/shell.png' />
                         <div class='overlay' id='turtle'>
                             <p>
-                                View my poster presentation for <b>SICB 2020</b>, which offers a glimpse into the research I work on as a part of the <b>Brainerd Lab</b>. 
-                            </p> 
+                                View my poster presentation for <b>SICB 2020</b>, which offers a
+                                glimpse into the research I work on as a part of the <b>Brainerd
+                                    Lab</b>.
+                            </p>
                         </div>
-                    </a>   
-                    
+                    </a>
+
                 </div>
                 <p class='proj-desc'>Sea Turtle Ventilation</p>
-            </div> 
+            </div>
         </div>
     </div>
 
     <div id='resume'>
         <h2>my resume</h3>
-        <p>Click 
-            <a href='https://drive.google.com/file/d/19Ug5b6hpuXMVmYl5rXQNDPV2-iaqF1Kw/view?usp=sharing'>here</a> for a PDF of my resume.</p>
+            <p>Click
+                <a
+                    href='https://drive.google.com/file/d/19Ug5b6hpuXMVmYl5rXQNDPV2-iaqF1Kw/view?usp=sharing'>here</a>
+                for a PDF of my resume.</p>
     </div>
 
     <div id='contact'>
         <h2>contact</h2>
 
-        <div class='email-icons'> 
+        <div class='email-icons'>
             <p>Feel free to reach out to me via <a href='mailto:leila_kim@brown.edu'>email</a>.</p>
 
             <a href="https://www.facebook.com/leila.kim.927" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/leila-k-a21b33132/" class="fa fa-linkedin"></a> 
-            <a href="https://github.com/leilankim/" class="fa fa-github"></a>   
+            <a href="https://www.linkedin.com/in/leila-k-a21b33132/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/leilankim/" class="fa fa-github"></a>
         </div>
-        
+
     </div>
 </body>
 
