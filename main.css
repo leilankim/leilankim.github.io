@@ -1,7 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Hind';
   font-size:20px;
   margin:45px;
+  opacity: 1;
+transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 h2 {
